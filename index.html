@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRE ANIMATION</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="text">
+        <h1>olingo</h1>
+    </div>
+    <svg>
+        <filter id="max">
+            <feTurbulence id="turbulence" baseFrequency="0.1 0.1" numOctaves="2" seed="3">
+                <animate attributeName="baseFrequency" dur="10s"  values="0.1 0.1;0.12 0.2" repeatCount="indefinite"></animate>
+            </feTurbulence>
+            <feDisplacementMap in="SourceGraphic" scale="30"></feDisplacementMap>
+        </filter> #343434
+    </svg>
+    <script src="./main.js></script>
+</body>
+</html>
